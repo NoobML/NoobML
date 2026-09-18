@@ -154,66 +154,114 @@ Peshawar, Pakistan
 
 ## 🚀 Featured Projects
 
-### 🤖 FREYA, AI Voice Assistant Robot
-3rd Place, CECOS University Final Year Project Competition
 
-Led a 2 member team building an ESP32 based humanoid robot. Integrated 3 LLMs for conversational logic, Whisper for speech to text, and Piper for text to speech, with FastAPI managing wireless communication. Programmed servo driven robotic arms, an OLED emotion eye display, and a full audio pipeline.
+<div align="center">
+<i>Six projects, three continents worth of curiosity, one very tired laptop fan</i>
+</div>
+
+<br/>
+
+### 🤖 FREYA, She Talks, She Listens, She Has Feelings (Sort Of)
+
+> *An AI that went from "can it even boot" to winning 3rd place at a university competition*
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Team%20Size-2%20Humans-2E86C1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Result-3rd%20Place-CD7F32?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LLMs%20Integrated-3-8A2BE2?style=for-the-badge" />
+</p>
+
+A humanoid robot built on an ESP32 that listens through Whisper, thinks through an LLM, and talks back through Piper, all while making faces on an OLED display and waving servo driven arms like it means it.
 
 `ESP32` `Whisper` `LLMs` `FastAPI` `Embedded Systems`
 
-[Repository](https://github.com/NoobML/freya-robot)
+[**See the Repository →**](https://github.com/NoobML/freya-robot)
 
----
+<br/>
 
-### 🎬 Video Action Recognition with Sequence Models
-Published as a ResearchGate preprint
+### 🎬 The Great Sequence Model Showdown, UCF-50 Edition
 
-Compared 7 sequence architectures, RNN, LSTM, GRU, BiLSTM, Stacked LSTM, Transformer, and Swin Transformer, on the UCF-50 dataset. GRU achieved 97.23% Top 1 accuracy with only 3.96M parameters, outperforming far larger attention based models.
+> *7 architectures walked in. 1 GRU walked out with 97.23% accuracy.*
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Top%20Model-GRU-2E86C1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Accuracy-97.23%25-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Parameters-3.96M-orange?style=for-the-badge" />
+</p>
+
+Turns out the fanciest architecture doesn't always win. This study benchmarked RNNs, LSTMs, GRUs, BiLSTMs, Transformers, and Swin Transformers on video action recognition, and the smallest, simplest model quietly beat everything else. Published as a ResearchGate.
 
 `PyTorch` `ResNet50` `GRU` `Transformers`
 
-[Repository](https://github.com/NoobML/ucf50-action-recognition) · [Paper](https://doi.org/10.13140/RG.2.2.11206.02888)
+[**Repository**](https://github.com/NoobML/ucf50-action-recognition) · [**Read the Paper**](https://doi.org/10.13140/RG.2.2.11206.02888)
 
----
+<br/>
 
-### 🌸 Flower Classification with Transfer Learning
-Published as a ResearchGate preprint
+### 🌸 Flowers vs Neural Networks
 
-Compared 7 CNN architectures on Oxford Flowers 102, 102 classes. MobileNetV2 reached 95.84% accuracy with only 130K trainable parameters, a 24.8% improvement over a custom CNN baseline.
+> *102 flower species, 7 CNN architectures, one clear winner*
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Top%20Model-MobileNetV2-2E86C1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Accuracy-95.84%25-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Params-Only%20130K-orange?style=for-the-badge" />
+</p>
+
+A lightweight model outperformed a custom built CNN by 24.8%, proof that transfer learning earns its reputation. Tested on the Oxford Flowers 102 dataset, published as a ResearchGate.
 
 `TensorFlow` `Transfer Learning` `MobileNetV2`
 
-[Repository](https://github.com/NoobML/flower-classification-transfer-learning) · [Paper](https://doi.org/10.13140/RG.2.2.14899.49444)
+[**Repository**](https://github.com/NoobML/flower-classification-transfer-learning) · [**Read the Paper**](https://doi.org/10.13140/RG.2.2.14899.49444)
 
----
+<br/>
 
-### 🤝 Chief of Staff Bot
-AI powered WhatsApp task management assistant
+### 🤝 The Bot That Never Forgets a Deadline
 
-Built a provider agnostic WhatsApp bot that extracts tasks, assignees, and deadlines from natural language group messages, automates follow ups, and sends daily digests. Persists task state to Google Sheets.
+> *For every manager who has ever said "wait, who was supposed to do that?"*
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Platform-WhatsApp-25D366?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LLM%20Providers-4-8A2BE2?style=for-the-badge" />
+</p>
+
+An AI powered WhatsApp bot that reads group chats, extracts tasks, tracks deadlines, chases people down when they go quiet, and sends a daily digest so nothing slips through the cracks again.
 
 `FastAPI` `Twilio` `LLMs` `APScheduler`
 
-[Repository](https://github.com/NoobML/chief-of-staff-bot)
+[**See the Repository →**](https://github.com/NoobML/chief-of-staff-bot)
 
----
+<br/>
 
-### 🧠 Transformer Language Model from Scratch
-Implemented an encoder only Transformer with multi head self attention, positional encoding, and layer normalization, trained on Shakespeare and Python code datasets with a custom tokenizer.
+### 🧠 A Transformer, Built from Absolute Scratch
+
+> *No shortcuts, no pretrained weights, just attention, one head at a time*
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Built%20From-Scratch-critical?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Trained%20On-Shakespeare%20%26%20Python%20Code-2E86C1?style=for-the-badge" />
+</p>
+
+An encoder only Transformer implemented from the ground up, multi head self attention, positional encoding, layer normalization, and a custom tokenizer, trained to generate both Shakespearean prose and Python code.
 
 `PyTorch` `Transformers` `NLP`
 
-[Repository](https://github.com/NoobML/mini-gpt-lab)
+[**See the Repository →**](https://github.com/NoobML/mini-gpt-lab)
 
+<br/>
 
-### 🏥 Medical Text Classifier
-Production ready medical text classification API
+### 🏥 A Text Classifier That's Actually Production Ready
 
-Built an end to end text classification system for medical records, with FastAPI serving predictions, MLflow tracking experiments, and Docker for containerized cloud deployment.
+> An actual deployable API.*
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Deployment-Dockerized-2496ED?style=for-the-badge" />
+</p>
+
+An end to end medical text classification system with FastAPI serving predictions, MLflow tracking every experiment, and Docker handling cloud deployment. Private repository, code available on request.
 
 `FastAPI` `Docker` `MLflow` `NLP`
 
-Private repository, available on request
 
 
 ## 🏆 Achievements
